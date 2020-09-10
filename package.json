@@ -1,0 +1,27 @@
+{
+  "name": "typedance-blog",
+  "version": "1.0.0",
+  "description": "A blog site built using the react next.js ssr framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikacyxooo/typedance-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikacyxooo/typedance-blog/issues"
+  },
+  "homepage": "https://github.com/pikacyxooo/typedance-blog#readme",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
