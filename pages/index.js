@@ -10,7 +10,6 @@ const Index = () => (
     <Link href="/test">
       <a>Test</a>
     </Link>
-    <BtnCls />
   </div>
 );
 export default Index;
