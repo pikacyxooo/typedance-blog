@@ -4,16 +4,13 @@ const Index = () => (
   <div>
     typedance Blog
     <p>scoped</p>
-    <Link href="/about" passHref>
-      <div>about</div>
+    <Link href="/about">
+      <a>about</a>
     </Link>
-    <style jsx>
-      {`
-        p {
-          color: blue;
-        }
-      `}
-    </style>
+    <Link href="/test">
+      <a>Test</a>
+    </Link>
+    <BtnCls />
   </div>
 );
 export default Index;
